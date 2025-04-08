@@ -52,7 +52,7 @@ public class LeitorSensor {
 
                 System.out.print("Ambiente: ");
                 System.out.print((temperatura < 18) ? "Frio, ligue o aquecedor. " : (temperatura > 33) ? "Quente, ligue o ar-condicionado. " : "Agradável. ");
-                System.out.print((umidade < 30) ? "Seco. " : (umidade > 70) ? "Molhado. " : "Umidade Normal. ");
+                System.out.print((umidade < 30) ? "Seco. " : (umidade > 70) ? "Úmido. " : "Umidade Normal. ");
                 System.out.println((luz < 200) ? "Escuro." : (luz > 800) ? "Claro." : "Iluminação Normal.");
                 System.out.println("---------------------------------------------------");
             }

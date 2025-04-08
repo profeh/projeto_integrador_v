@@ -1,17 +1,24 @@
 {
     "version": "0.2.0",
     "configurations": [
-      {
-        "type": "java",
-        "name": "Executar LeitorSerial",
-        "request": "launch",
-        "mainClass": "LeitorSerial",
-        "cwd": "${workspaceFolder}",
-        "classPaths": [
-          "bin",
-          "lib/jSerialComm.jar"
-        ]
-      }
+        {
+            "type": "java",
+            "name": "LeitorSensor",
+            "request": "launch",
+            "mainClass": "LeitorSensor",
+            "projectName": "PI V_344f43e8"
+        },
+        {
+            "type": "java",
+            "name": "Executar LeitorSerial",
+            "request": "launch",
+            "mainClass": "LeitorSerial",
+            "cwd": "${workspaceFolder}",
+            "classPaths": [
+                "bin",
+                "lib/jSerialComm.jar"
+            ]
+        }
     ]
   }
   
